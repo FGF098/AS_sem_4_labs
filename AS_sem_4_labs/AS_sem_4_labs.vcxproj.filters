@@ -28,6 +28,9 @@
     <Filter Include="Model\Station">
       <UniqueIdentifier>{ef7cf0d8-4912-41b4-9727-ff02e9261f13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Model\Line">
+      <UniqueIdentifier>{ec37fe90-dee4-4700-9a72-7f2dfaa16cb2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp">
@@ -36,10 +39,16 @@
     <ClCompile Include="metro_station.cpp">
       <Filter>Model\Station</Filter>
     </ClCompile>
+    <ClCompile Include="metro_line.cpp">
+      <Filter>Model\Line</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="metro_station.h">
       <Filter>Model\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="metro_line.h">
+      <Filter>Model\Line</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
