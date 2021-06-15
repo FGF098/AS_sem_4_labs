@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{982aea46-cd70-4f14-b79a-975104fee006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{66f5c6a5-58ce-4bde-a0e2-ea89b9fab85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{0faab63f-7ba8-49ba-af38-08c38c5c6ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Labs">
+      <UniqueIdentifier>{744e1cd3-47f0-4fcf-bba0-6eb3c5ad8aee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Console</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
