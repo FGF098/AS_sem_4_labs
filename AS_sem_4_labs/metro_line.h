@@ -11,6 +11,8 @@ class MetroLine
 	std::string get_name() const { return name; };
 	std::string get_description() const { return description; };
 
+	const std::vector<MetroStation*> get_stations() const { return stations; };
+
 	friend std::ostream& operator<< (std::ostream& out, const MetroLine& line);
 
 private:
