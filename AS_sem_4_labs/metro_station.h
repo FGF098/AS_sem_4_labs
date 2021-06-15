@@ -37,10 +37,10 @@ public:
 	/// <summary>
 	/// function for putting it in ostream (console, file e.t.c.)
 	/// </summary>
-	/// <param name="os">reference on the ostream</param>
+	/// <param name="out">reference on the ostream</param>
 	/// <param name="station">const reference on the station</param>
 	/// <returns>reference on the same ostream</returns>
-	friend std::ostream& operator<<(std::ostream& os, const MetroStation& station);
+	friend std::ostream& operator<<(std::ostream& out, const MetroStation& station);
 
 private:
 

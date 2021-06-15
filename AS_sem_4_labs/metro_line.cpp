@@ -9,10 +9,10 @@ MetroLine::MetroLine(std::string name, std::string description, std::vector<Metr
 		throw "metro line constructor error : no stations";
 }
 
-std::ostream& operator<<(std::ostream& os, const MetroLine& line)
+std::ostream& operator<<(std::ostream& out, const MetroLine& line)
 {
-	os << "[ " << line.name << " : " << line.description << " ]" << std::endl;
+	out << "[ " << line.name << " : " << line.description << " ]" << std::endl;
 	for (auto i = line.stations.begin(); i != line.stations.end(); ++i)
-		os << **i << std::endl;
-	return os;
+		out << **i << std::endl;
+	return out;
 }
