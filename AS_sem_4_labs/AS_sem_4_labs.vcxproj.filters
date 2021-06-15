@@ -33,12 +33,12 @@
     <ClCompile Include="AS_sem_4_labs.cpp">
       <Filter>Console</Filter>
     </ClCompile>
-    <ClCompile Include="station.cpp">
+    <ClCompile Include="metro_station.cpp">
       <Filter>Model\Station</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="station.h">
+    <ClInclude Include="metro_station.h">
       <Filter>Model\Station</Filter>
     </ClInclude>
   </ItemGroup>

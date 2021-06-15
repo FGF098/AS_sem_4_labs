@@ -6,7 +6,7 @@
 /// <summary>
 /// class realizing used data object
 /// </summary>
-class Station
+class MetroStation
 {
 public:
 
@@ -16,7 +16,7 @@ public:
 	/// <param name="name">name of the station, uses as key</param>
 	/// <param name="year_of_creating">year of creating the station, additional information</param>
 	/// <param name="description">description of the station, additional information</param>
-	Station(std::string name, int year_of_creating, std::string description);
+	MetroStation(std::string name, int year_of_creating, std::string description);
 
 	/// <summary>
 	/// getter by value for name
@@ -40,7 +40,7 @@ public:
 	/// <param name="os">reference on the ostream</param>
 	/// <param name="station">const reference on the station</param>
 	/// <returns>reference on the same ostream</returns>
-	friend std::ostream& operator<<(std::ostream& os, const Station& station);
+	friend std::ostream& operator<<(std::ostream& os, const MetroStation& station);
 
 private:
 

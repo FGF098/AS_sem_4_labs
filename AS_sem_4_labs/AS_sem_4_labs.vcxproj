@@ -140,10 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp" />
-    <ClCompile Include="station.cpp" />
+    <ClCompile Include="metro_station.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="station.h" />
+    <ClInclude Include="metro_station.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
