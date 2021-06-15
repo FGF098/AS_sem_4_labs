@@ -35,17 +35,6 @@ public:
 	std::string get_description() const { return description; };
 
 	/// <summary>
-	/// setter for name (checking for not empty value)
-	/// </summary>
-	/// <param name="new_name">new name's value</param>
-	void set_new_name(std::string new_name);
-	/// <summary>
-	/// setter for description (any value)
-	/// </summary>
-	/// <param name="new_description">new description's value</param>
-	void set_new_description(std::string new_description) { description = new_description; };
-
-	/// <summary>
 	/// function for putting it in ostream (console, file e.t.c.)
 	/// </summary>
 	/// <param name="os">reference on the ostream</param>
