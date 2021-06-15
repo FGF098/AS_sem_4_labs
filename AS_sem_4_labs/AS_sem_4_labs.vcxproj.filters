@@ -25,10 +25,18 @@
     <Filter Include="Labs">
       <UniqueIdentifier>{744e1cd3-47f0-4fcf-bba0-6eb3c5ad8aee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utilities\I Printable">
+      <UniqueIdentifier>{78ddd8c5-9139-46e1-81a0-0aafce45fc55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp">
       <Filter>Console</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="i_printable.h">
+      <Filter>Utilities\I Printable</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

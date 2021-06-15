@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="i_printable.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
