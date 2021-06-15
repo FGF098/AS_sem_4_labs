@@ -1,13 +1,12 @@
 #pragma once
 
+#include <iostream>
 #include <string>
-
-#include "i_printable.h"
 
 /// <summary>
 /// class realizing used data object
 /// </summary>
-class Station : public IPrintable
+class Station
 {
 public:
 
@@ -50,8 +49,9 @@ public:
 	/// function for putting it in ostream (console, file e.t.c.)
 	/// </summary>
 	/// <param name="os">reference on the ostream</param>
-	/// <returns>reference of the same ostream</returns>
-	std::ostream& operator<<(std::ostream& os) const override;
+	/// <param name="station">const reference on the station</param>
+	/// <returns>reference on the same ostream</returns>
+	friend std::ostream& operator<<(std::ostream& os, const Station& station);
 
 private:
 

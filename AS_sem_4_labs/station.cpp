@@ -11,12 +11,11 @@ void Station::set_new_name(std::string new_name)
 {
 	if (new_name.size() == 0)
 		throw "station setting new name error : empty new name";
-
 	name = new_name;
 }
 
-std::ostream& Station::operator<<(std::ostream& os) const
+std::ostream& operator<<(std::ostream& os, const Station& station)
 {
-	os << "[ " << name << " : " << year_of_creating << " : " << description << " ]";
+	os << "[ " << station.name << " : " << station.year_of_creating << " : " << station.description << " ]";
 	return os;
 }

@@ -25,9 +25,6 @@
     <Filter Include="Labs">
       <UniqueIdentifier>{744e1cd3-47f0-4fcf-bba0-6eb3c5ad8aee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Utilities\I Printable">
-      <UniqueIdentifier>{78ddd8c5-9139-46e1-81a0-0aafce45fc55}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Model\Station">
       <UniqueIdentifier>{ef7cf0d8-4912-41b4-9727-ff02e9261f13}</UniqueIdentifier>
     </Filter>
@@ -41,9 +38,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="i_printable.h">
-      <Filter>Utilities\I Printable</Filter>
-    </ClInclude>
     <ClInclude Include="station.h">
       <Filter>Model\Station</Filter>
     </ClInclude>
