@@ -9,6 +9,8 @@
 /// </summary>
 class MetroLine
 {
+public:
+
 	/// <summary>
 	/// standart constructor, check non-empty name and stations list
 	/// </summary>

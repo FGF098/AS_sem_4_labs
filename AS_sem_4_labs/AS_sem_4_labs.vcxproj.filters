@@ -31,6 +31,9 @@
     <Filter Include="Model\Line">
       <UniqueIdentifier>{ec37fe90-dee4-4700-9a72-7f2dfaa16cb2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Model\Metro">
+      <UniqueIdentifier>{a34856e3-16f3-481b-890d-6b684040dc5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="metro_line.cpp">
       <Filter>Model\Line</Filter>
     </ClCompile>
+    <ClCompile Include="metro.cpp">
+      <Filter>Model\Metro</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="metro_station.h">
@@ -49,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="metro_line.h">
       <Filter>Model\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="metro.h">
+      <Filter>Model\Metro</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
