@@ -37,6 +37,9 @@
     <Filter Include="Utilities\Name &amp; Description">
       <UniqueIdentifier>{89339ca2-c866-404c-9d8d-5f79bdf2d2f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utilities\Not Empty List">
+      <UniqueIdentifier>{9523ba6f-eddd-4ae0-a922-a2deff7841bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AS_sem_4_labs.cpp">
@@ -54,6 +57,9 @@
     <ClCompile Include="name_description.cpp">
       <Filter>Utilities\Name &amp; Description</Filter>
     </ClCompile>
+    <ClCompile Include="not_empty_list.cpp">
+      <Filter>Utilities\Not Empty List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="metro_station.h">
@@ -70,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="name_description.h">
       <Filter>Utilities\Name &amp; Description</Filter>
+    </ClInclude>
+    <ClInclude Include="not_empty_list.h">
+      <Filter>Utilities\Not Empty List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

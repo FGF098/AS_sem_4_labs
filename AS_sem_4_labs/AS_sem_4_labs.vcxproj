@@ -144,6 +144,7 @@
     <ClCompile Include="metro_line.cpp" />
     <ClCompile Include="metro_station.cpp" />
     <ClCompile Include="name_description.cpp" />
+    <ClCompile Include="not_empty_list.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="metro.h" />
@@ -151,6 +152,7 @@
     <ClInclude Include="metro_station.h" />
     <ClInclude Include="name_description.h" />
     <ClInclude Include="name_description_struct.h" />
+    <ClInclude Include="not_empty_list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

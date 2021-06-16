@@ -13,7 +13,7 @@ public:
 
 	/// <summary>
 	/// constructor with value and checking for non-empty name
-	/// for such error getting class name (throw string)
+	/// for such error getting class name
 	/// </summary>
 	/// <param name="value">name and description</param>
 	/// <param name="class_name">name of class, what uses this name & description</param>
