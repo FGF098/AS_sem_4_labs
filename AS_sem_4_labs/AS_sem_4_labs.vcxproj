@@ -143,11 +143,14 @@
     <ClCompile Include="metro.cpp" />
     <ClCompile Include="metro_line.cpp" />
     <ClCompile Include="metro_station.cpp" />
+    <ClCompile Include="name_description.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="metro.h" />
     <ClInclude Include="metro_line.h" />
     <ClInclude Include="metro_station.h" />
+    <ClInclude Include="name_description.h" />
+    <ClInclude Include="name_description_struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
