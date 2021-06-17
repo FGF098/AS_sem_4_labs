@@ -1,18 +1,14 @@
 #include "metro_line.h"
 
-MetroLine::MetroLine(std::string name, std::string description, std::vector<MetroStation*> stations)
-	: name(name), description(description), stations(stations)
-{
-	if (name.empty())
-		throw "metro line constructor error : empty name";
-	if (stations.empty())
-		throw "metro line constructor error : no stations";
-}
+const std::string MetroLine::class_name = "metro line";
+const std::string MetroLine::list_name = "stations in line list";
+
+MetroLine::MetroLine(NameDescriptionStruct name_description, std::vector<MetroStation*> stations)
+	: NameDescription(name_description, class_name), NotEmptyList(stations, list_name, class_name) {}
 
 std::ostream& operator<<(std::ostream& out, const MetroLine& line)
 {
-	out << "[ " << line.name << " : " << line.description << " ]" << std::endl;
-	for (auto i = line.stations.begin(); i != line.stations.end(); ++i)
-		out << **i << std::endl;
+	out << (NameDescription)line << std::endl;
+	out << (NotEmptyList<MetroStation>)line << std::endl;
 	return out;
 }

@@ -20,13 +20,13 @@ public:
 	/// </summary>
 	/// <param name="list">list of elements</param>
 	/// <param name="class_name">name of class, which use this object</param>
-	NotEmptyList(std::vector<ListElement&> list, std::string class_name = "");
+	NotEmptyList(std::vector<ListElement*> list, std::string last_name, std::string class_name = "");
 
 	/// <summary>
 	/// getter for elements list
 	/// </summary>
 	/// <returns>const reference on list</returns>
-	const std::vector<ListElement&>& get_elements() const { return list; };
+	const std::vector<ListElement*>& get_elements() const { return list; };
 
 	/// <summary>
 	/// function for pushing all elements of list in ostream
@@ -38,5 +38,7 @@ public:
 
 private:
 
-	std::vector<ListElement&> list;
+	std::string list_name;
+
+	std::vector<ListElement*> list;
 };
