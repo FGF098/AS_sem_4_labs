@@ -1,14 +1,6 @@
 #include "metro_station.h"
 
-MetroStation::MetroStation(std::string name, int year_of_creating, std::string description)
-	: name(name), year_of_creating(year_of_creating), description(description)
-{
-	if (name.empty())
-		throw "station creation error : empty name";
-}
+const std::string MetroStation::class_name = std::string("metro station");
 
-std::ostream& operator<<(std::ostream& out, const MetroStation& station)
-{
-	out << "[ " << station.name << " : " << station.year_of_creating << " : " << station.description << " ]";
-	return out;
-}
+MetroStation::MetroStation(NameDescriptionStruct name_description)
+	: NameDescription(name_description, class_name) {}

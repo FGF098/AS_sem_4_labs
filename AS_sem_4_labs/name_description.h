@@ -41,4 +41,6 @@ public:
 private:
 
 	NameDescriptionStruct value;
+
+	std::string class_name;
 };
